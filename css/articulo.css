@@ -1,0 +1,91 @@
+/*Barra de Navegacon*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.barraN{
+  width: 100%:
+  list-style: none: ;
+  padding: 20px;
+  background-color: #7952b3;
+  text-align: center;
+}
+
+.barraN li{
+  display: inline;
+  text-align: center;
+  margin: 0 15px 0 0;
+}
+
+.barraN ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.barraN ul a:hover{
+  border-radius: 10px;
+   color: #FFC107;
+}
+
+/*Titulo */
+.titulo{
+  padding: 0px 100px 10px 130px;
+  font-size: 20px;
+}
+
+/*Contenido*/
+.contenido{
+  border-radius: 25px 25px 0px 0px;
+  margin:auto;
+  background: #E1E8EB;
+  width: 80%;
+  height: 450px;
+}
+
+.tem{
+  margin:10px;
+  background: black;
+  color: white;
+  width: 50%;
+  height: 20px;
+  margin: auto;
+
+
+}
+
+p{
+  padding: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+/*Pie de pagina*/
+footer{
+  background: #343A40;
+}
+
+.con-fu{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.ft{
+  width: 80%;
+  margin:90px auto;
+  padding:10px 5px;
+  font-size: 18px;
+  /* border: solid 1px red; */
+}
+
+.ft a{
+ color: #fff;
+ width: 100%;
+}
+
+.ft a:hover{
+  color: #FFC107;
+}
