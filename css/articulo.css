@@ -28,13 +28,12 @@
 .temes{
   display: flex;
   flex-direction: row;
-  background-image: url(../img/fon-temas.jpg);
+  background-image: url(../imagenes-articulos/fon-temas.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
 }
 /* modal */
-
 .modal-contenido{
   background-color:aqua;
   width:90%;
@@ -48,11 +47,10 @@
   background-color: #EDEDED;
 }
 .modal-contenido p{
+  text-align: justify;
   font-size: 25px;
-
-  margin: 20px 70px;
+  margin: 70px 70px;
 }
-
 .modal-contenido h2{
   font-size: 40px;
   margin: 50px 20px;
@@ -70,7 +68,6 @@
 .modal-contenido a:hover{
   background-color: #F55C47;
 }
-
 .titulo{
   color: white;
   font-size: 50px;
@@ -86,7 +83,6 @@
   font-family: Courier New;
   text-shadow: 3px 3px 7px black;
   text-align: right;
-
 }
 .contenedor-temas .as a:hover{
   color: black;
@@ -102,7 +98,6 @@
   pointer-events:none;
   transition: all 1s;
 }
-
 /* Inicia Modales */
 #tema1:target{
   opacity:1;
@@ -120,13 +115,23 @@
   opacity:1;
   pointer-events:auto;
 }
+#tema5:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema6:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema6-1:target{
+  opacity:1;
+  pointer-events:auto;
+}
 .contenedor-temas{
   display: flex;
   flex-direction: column;
   width: 100%;
-
 }
-
 .img{
   width: 40%;
   text-align: center;
@@ -140,7 +145,6 @@
   margin: 0px auto;
   text-align: center;
   background-color: #343A40;
-
 }
 .ft{
   width: 80%;
@@ -152,7 +156,25 @@
  color: white;
  width: 100%;
 }
-
 .ft a:hover{
   color: #FFC107;
+}
+/*clase de imagenes dentro de <p>*/
+
+.img{
+  width: 90%;
+  margin:auto;
+
+}
+.img img{
+  width: 100%;
+}
+/*estlio Linea de contenido*/
+.line{
+  width: 90%;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #A239EA;
+  margin: 10px auto;
+  box-shadow: 3px 3px 7px black;
 }
