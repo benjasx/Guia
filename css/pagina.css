@@ -163,6 +163,11 @@
   pointer-events:auto;
 }
 
+#tema5:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
 .contenedor-temas{
   display: flex;
   flex-direction: column;
@@ -178,8 +183,9 @@
 
 .center{
   width: 90%;
-  margin: 10px auto;
-  box-shadow: 3px 3px 7px black;
+  margin: 50px auto;
+  box-shadow:3px 3px 7px black;
+  padding: 10px;
 }
 
 .center img{
