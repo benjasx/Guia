@@ -103,29 +103,50 @@
   opacity:1;
   pointer-events:auto;
 }
+
 #tema2:target{
   opacity:1;
   pointer-events:auto;
 }
+
 #tema3:target{
   opacity:1;
   pointer-events:auto;
 }
+
 #tema4:target{
   opacity:1;
   pointer-events:auto;
 }
+
 #tema5:target{
   opacity:1;
   pointer-events:auto;
 }
+
 #tema6:target{
   opacity:1;
   pointer-events:auto;
 }
+
 #tema6-1:target{
   opacity:1;
   pointer-events:auto;
+}
+
+#tema6-2:target{
+  opacity:1;
+  pointer-events: auto;
+}
+
+#tema6-3:target{
+  opacity:1;
+  pointer-events: auto;
+}
+
+#tema6-4:target{
+  opacity:1;
+  pointer-events: auto;
 }
 .contenedor-temas{
   display: flex;
