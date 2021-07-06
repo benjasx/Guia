@@ -113,6 +113,10 @@
   transition: all 1s;
 }
 
+.contenedor-temas .as a{
+  text-decoration: none;
+}
+
 /* Inicia Modales */
 #tema1:target{
   opacity:1;
