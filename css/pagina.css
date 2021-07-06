@@ -220,6 +220,46 @@
   opacity:1;
   pointer-events:auto;
 }
+#tema18:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema19:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema20:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema21:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema22:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema23:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema24:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema25:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema26:target{
+  opacity:1;
+  pointer-events:auto;
+}
+#tema27:target{
+  opacity:1;
+  pointer-events:auto;
+}
 .contenedor-temas{
   display: flex;
   flex-direction: column;
